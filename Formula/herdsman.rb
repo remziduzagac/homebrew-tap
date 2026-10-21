@@ -3,28 +3,28 @@
 class Herdsman < Formula
   desc "Terminal workspace for running coding agents, with stacked panes"
   homepage "https://github.com/remziduzagac/herdsman"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/remziduzagac/herdsman/releases/download/v0.2.0/herdsman-macos-aarch64"
-      sha256 "3fab4fd9208ba75d2df267b11123f7d57d982df85913b26c96f3e917a5f786af"
+      url "https://github.com/remziduzagac/herdsman/releases/download/v0.3.0/herdsman-macos-aarch64"
+      sha256 "c04a9efcc46489a61ba03985f48bb83d658a41a9be1addb0d361e40946b6c7a9"
     end
     on_intel do
-      url "https://github.com/remziduzagac/herdsman/releases/download/v0.2.0/herdsman-macos-x86_64"
-      sha256 "f2fc1912a791ce6ae600b824431cec4b2dbae7d426a8d8d0dfb2f02fc69cb489"
+      url "https://github.com/remziduzagac/herdsman/releases/download/v0.3.0/herdsman-macos-x86_64"
+      sha256 "65e5f503a252dc980d026e62da60fc54fab89d3e9b2e5e958e3242330d869055"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/remziduzagac/herdsman/releases/download/v0.2.0/herdsman-linux-aarch64"
-      sha256 "75badfde956c0f9112f5e8cd8dedf9221dee5a83189c3babaa7a82db1477f229"
+      url "https://github.com/remziduzagac/herdsman/releases/download/v0.3.0/herdsman-linux-aarch64"
+      sha256 "88b8a3bc20a044c5dc05f7c661568473c6bf5cd13e0973ab550c1334501f2a4b"
     end
     on_intel do
-      url "https://github.com/remziduzagac/herdsman/releases/download/v0.2.0/herdsman-linux-x86_64"
-      sha256 "3ba039ff5cada6eba4b70ccec49ed38e41cc82219ae2da69e97225f928526d31"
+      url "https://github.com/remziduzagac/herdsman/releases/download/v0.3.0/herdsman-linux-x86_64"
+      sha256 "891c7ec2fb10bf183206313fce9164552b20f5c6a5fe36eec6ef7bf649cfc5a3"
     end
   end
 
