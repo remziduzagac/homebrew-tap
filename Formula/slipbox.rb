@@ -3,22 +3,22 @@
 class Slipbox < Formula
   desc "Terminal companion for coding agents"
   homepage "https://github.com/remziduzagac/slipbox"
-  version "0.4.0"
+  version "0.5.0"
   license "Apache-2.0"
 
   on_macos do
     depends_on arch: :arm64
-    url "https://github.com/remziduzagac/slipbox/releases/download/v0.4.0/slipbox-0.4.0-darwin-arm64.tar.gz"
-    sha256 "c666c65180c8021738a3e167a8d3693ea5da4437471477ef601e024c5837247e"
+    url "https://github.com/remziduzagac/slipbox/releases/download/v0.5.0/slipbox-0.5.0-darwin-arm64.tar.gz"
+    sha256 "4756f164af14ba306fa287630a97c1e3472eb80d97da589b187c0bc9c5af63ee"
   end
   on_linux do
     on_arm do
-      url "https://github.com/remziduzagac/slipbox/releases/download/v0.4.0/slipbox-0.4.0-linux-arm64.tar.gz"
-      sha256 "b89cf9239f19cbada56ec37869e9639a47f78f5937bb85a37d2865a5a64ba036"
+      url "https://github.com/remziduzagac/slipbox/releases/download/v0.5.0/slipbox-0.5.0-linux-arm64.tar.gz"
+      sha256 "4d6b10986f90e97ac90ffd8a987427f67eb1b35f3b95ed4abeff5c6ba1909533"
     end
     on_intel do
-      url "https://github.com/remziduzagac/slipbox/releases/download/v0.4.0/slipbox-0.4.0-linux-x64.tar.gz"
-      sha256 "d0f47c539e3210362af4cda272172f95592316a09e57c794d9db4b00b4827972"
+      url "https://github.com/remziduzagac/slipbox/releases/download/v0.5.0/slipbox-0.5.0-linux-x64.tar.gz"
+      sha256 "34c34ec16987343ca63cec4bda42ccd378df1eb80e7adb1861abe29245654c05"
     end
   end
 
